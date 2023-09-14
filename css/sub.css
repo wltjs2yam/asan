@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* staff */
+.staff {background:#EFEFEF;}
+
+.top {
+    height:50px; 
+    background: white; 
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 1px solid #ccc;}
+.top_write {
+    font-size:23px;
+    text-align: center;
+    font-weight: bold;
+    margin-top:13px;
+}
+
+.middle {
+    font-size: 14px;
+    margin: 10px 0;
+    color:grey;
+}
+.middle_type {
+    margin-top: 10px;
+    width: 1900px;
+    height: 70px;
+    background:white;
+}
+.middle_type > input[type="text"] {
+    width: 1400px; height: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
